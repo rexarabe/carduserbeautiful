@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+    border-radius: 10px;
+
+}
+.cardUser{
+    display: flex;
+    border: solid black;
+    flex-direction: column;
+    background-image: url("https://image.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg");
+    width: 25em;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+.cardUser:hover{
+    color: deeppink;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: solid darkblue;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    font-family: "Andale Mono";
+    color: white;
+}
+.profession{
+    display: flex;
+    justify-content: center;
+    color: darkgrey;
+}
+.follower{
+    display: flex;
+    font-family: "Lato Light";
+    justify-content: space-between;
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    color: white
+}
+.items img{
+    height: 20px;
+}
+.location{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "Lato Light";
+}
+.location img{
+    height: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons span{
+    font-family: "Fira Code Light";
+    border: solid gold;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+}
+.buttons span:hover{
+    background-color: cadetblue;
+}
